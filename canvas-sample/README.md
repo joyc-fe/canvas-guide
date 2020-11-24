@@ -5,7 +5,7 @@
 |刮刮乐|![](./images/Foxmail20201123022853.png)|
 |碰壁反弹|![](./images/Foxmail20201123022724.png)|
 |按压移动跟随|![](./images/Foxmail20201123023058.png)|
-
+|弹幕![](./images/Foxmail20201123030841.png)|
 1. canvas动画
 	requestAnimationFrame，函数，为动画而设计的接口，相比计时器制作的要流畅得多，占用资源少
 	var id = requestAnimationFrame(fn)
