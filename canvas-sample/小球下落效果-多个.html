@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>雪花</title>
+	<style type="text/css">
+		#canvas {
+			background-color: black;
+		}
+	</style>
+
+</head>
+<body>
+	<canvas id="canvas" width="400" height="400"></canvas>
+	<script type="text/javascript">
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext("2d");
+
+		var particles = []; // 存放所有的粒子实例
+
+		function rnd(min, max) {
+			return parseInt(Math.random() * ( max - min)) + min;
+		}
+		var Particle = function() {
+			// 粒子具有的属性
+			this.x = rnd(0, canvas.width);
+			this.y = 0;
+			this.r = rnd(3, 10);
+			this.speed = rnd(1, 8);
+			this.color = "#fff";
+		}
+		Particle.prototype.draw = function() {
+			ctx.beginPath();
+			ctx.fillStyle = this.color;
+			ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2, false);
+			ctx.closePath();
+			ctx.fill();
+		}
+		Particle.prototype.update = function() {
+			this.y += this.speed;
+		}
+
+		particles.push(new Particle(), new Particle(), new Particle());
+
+		function loop() {
+			canvas.width = canvas.width; // 清除画布的内容
+			
+			for(var i in particles) {
+				particles[i].draw(); // 粒子绘制
+				particles[i].update(); // 粒子位置更新
+			}
+
+			requestAnimationFrame(loop);
+		}
+		requestAnimationFrame(loop);
+	</script>
+</body>
+</html>

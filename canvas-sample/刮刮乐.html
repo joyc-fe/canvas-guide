@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>canvas动画</title>
+	<style type="text/css">
+		#canvas {
+			border: 1px solid;
+			margin: 100px;
+		}
+		#award {
+			position: absolute;
+			left: 120px;
+			top: 120px;
+			z-index: -1;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas" width="400" height="400"></canvas>
+	<span id="award">一等奖</span>
+	<script type="text/javascript">
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext("2d");
+
+		ctx.fillStyle = "#ccc";
+		ctx.fillRect(0, 0, canvas.width, canvas.height);
+		ctx.fillStyle = "red";
+		ctx.fillText("html5", 200, 200);
+
+		canvas.onmousemove = function(e) {
+			ctx.clearRect(e.offsetX - 5, e.offsetY - 5, 10, 10);
+		}
+	</script>
+</body>
+</html>

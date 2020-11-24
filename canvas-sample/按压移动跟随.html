@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>canvas动画</title>
+	<style type="text/css">
+		
+		#canvas {
+			border: 1px solid;
+		}
+	</style>
+</head>
+<body>
+
+	<canvas id="canvas" width="400" height="400"></canvas>
+	<script type="text/javascript">
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext("2d");
+		var bLeft = 100;
+		var bTop  = 100;
+		
+		// ctx.fillRect(100, 100, 100, 100);
+		ctx.beginPath();
+		// ctx.arc(200, 200, 100, 0, Math.PI * 2, false);
+		ctx.rect(bLeft, bTop, 100, 100)
+		ctx.closePath();
+		ctx.fill();
+
+		canvas.onmousedown = function(e) {
+			var disX = e.offsetX - bLeft; // 鼠标按下的点距离矩形左边的值
+			var disY = e.offsetY - bTop;  // 鼠标按下的点距离矩形上边的值
+			if(ctx.isPointInPath(e.offsetX, e.offsetY)) {
+				canvas.onmousemove = function(e) {
+					bLeft = e.offsetX - disX;
+					bTop = e.offsetY - disY;
+					canvas.width = canvas.width;
+					ctx.beginPath();
+					ctx.rect( bLeft, bTop , 100, 100)
+					ctx.closePath();
+					ctx.fill();
+				}
+				
+				document.onmouseup = function() {
+					canvas.onmousemove = null;
+				}
+			}
+		}
+	</script>
+</body>
+</html>
