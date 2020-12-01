@@ -1,7 +1,7 @@
 |示例||
 |:----|:----|
-|[官网文档](http://pixijs.download/release/docs/index.html)||
-|[pixi examples](https://pixijs.io/examples/)||
+|[官网文档](http://pixijs.download/release/docs/index.html)|![](./images/Foxmail20201201105557.png) |
+|[pixi examples](https://pixijs.io/examples/)|![](./images/Foxmail20201201105812.png)|
 |[pixi精灵示例](https://juejin.cn/post/6844903760561438728)| ![](./images/16849ce0e011e9ef.gif) |
 |[pixi系列教程-粒子效果](https://juejin.cn/post/6844903765108260872)|![](./images/16872fcedf4c373c.gif)|
 |[pixi中文教程](https://www.bookstack.cn/read/LearningPixi/collision)||
