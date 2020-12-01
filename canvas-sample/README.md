@@ -51,3 +51,14 @@
 |[游戏人物控制](./游戏人物控制/index.html)|实现结构，有了事件函数| ![](./images/Foxmail20201123030416.png)|
 
 
+
+原生canvas文档
+https://github.com/Beats0/js-practice/blob/dbceaf1e663abfdee4de29b8308f70b68dc63b36/chapter/Canvas/README.MD
+
+原生api怎么在pixi中使用 https://github.com/LuckyKat/pixi-canvas/search?q=createRadialGradient
+
+光晕效果使用canvas可以设置，但是原生就没有这个效果  
+pixi createRadialGradient
+https://github.com/LuckyKat/pixi-canvas/blob/master/pixi-canvas.js
+
+https://www.cnblogs.com/sunli0205/p/6242684.html

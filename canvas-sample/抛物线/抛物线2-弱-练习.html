@@ -1,0 +1,86 @@
+<!doctype html >
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>抛物线运动  没啥用</title>
+  <style>
+     .pwx_rect{position:absolute;left:10px;top:300px;background-color:#888;height:50px;width:50px;}
+  </style>
+  
+</head>
+<body>
+ 
+ 
+  <div class="pwx_rect" id="rect"></div>
+ 
+
+
+  <script>
+    function parabola(domObj,startPoint,endPoint,timeLong,func){
+   //一、初始化
+   let offsetX = endPoint.x-startPoint.x;
+   let offsetY = endPoint.y-startPoint.y;
+   let p = (offsetY*offsetY)/(2*offsetX);
+   let left1 = 0;
+   domObj.style.left = startPoint.x+"px";
+   domObj.style.top = startPoint.y+"px";
+   let timeSpace = 10;
+   let step = Math.abs(endPoint.x-startPoint.x)/(timeLong/timeSpace) // endValue-startValue/步子数;//
+   //二、启动定时器
+   let myTimer = setInterval(function() {
+        
+   //1、改变数据
+   left1=left1+step;
+   let top1=Math.sqrt(2*p*left1);
+   //2、判断边界
+   if(left1>=offsetX){
+    left1 = offsetX;
+    top1=Math.sqrt(2*p*left1);
+    window.clearInterval(myTimer);
+    if(func){
+    func();
+    }
+   }
+   //3、改变外观
+   domObj.style.left = left1+startPoint.x+"px";
+   console.log(startPoint.y);
+   domObj.style.top = top1+startPoint.y+"px";
+   },timeSpace);
+  }
+  parabola(document.getElementById("rect"), {x:0, y:0}, {x:220, y:1000}, 10000)
+ </script>
+ <script>
+function parabola(sprite,startPoint,endPoint,timeLong,func){
+   //一、初始化
+   let offsetX = endPoint.x-startPoint.x;
+   let offsetY = endPoint.y-startPoint.y;
+   let p = (offsetY*offsetY)/(2*offsetX);
+   let left1 = 0;
+   particle.x = startPoint.x;
+   domObj.style.top = startPoint.y;
+   let timeSpace = 10;
+   let step = Math.abs(endPoint.x-startPoint.x)/(timeLong/timeSpace) // endValue-startValue/步子数;//
+   //二、启动定时器
+   let myTimer = setInterval(function() {
+        
+   //1、改变数据
+   left1=left1+step;
+   let top1=Math.sqrt(2*p*left1);
+   //2、判断边界
+   if(left1>=offsetX){
+    left1 = offsetX;
+    top1=Math.sqrt(2*p*left1);
+    window.clearInterval(myTimer);
+    if(func){
+    func();
+    }
+   }
+
+
+   
+   },timeSpace);
+  }
+
+ </script>
+</body>
+</html>

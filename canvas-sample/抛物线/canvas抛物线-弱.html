@@ -1,0 +1,44 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>没啥意义</title>
+  <style type="text/css">
+  body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  #myCanvas {
+  box-shadow: -2px -2px 2px #efefef,5px 5px 5px #b9b9b9;
+  }
+  </style>
+</head>
+<body>
+<canvas id="myCanvas" width="600px" height="600px"></canvas>
+<script type="text/javascript">
+var x=50,y=50,k=1;
+var c=document.getElementById("myCanvas");
+var cxt=c.getContext("2d");
+cxt.fillStyle="#e0e0e0";
+cxt.beginPath();
+cxt.arc(x,y,30,0,Math.PI*2,true);
+cxt.closePath();
+cxt.fill();
+t=setInterval("parabola()",100);
+function parabola(){
+  cxt.clearRect(0,0,600,600);//清除原始图形
+  cxt.beginPath();
+  x=50+0.1*k*4*100;y=50+9.8*0.1*k*0.1*k*1/2*100;
+  cxt.arc(x,y,30,0,Math.PI*2,true);
+  cxt.closePath();
+  cxt.fill();
+  k++;
+  if(x>520||y>520){
+  clearInterval(t);
+  }
+}
+</script>
+</body>
+</html>

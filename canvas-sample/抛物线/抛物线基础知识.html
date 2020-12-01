@@ -1,0 +1,21 @@
+<!doctype html >
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>抛物线基础知识</title>
+</head>
+<body>
+  <script>
+    // https://www.bilibili.com/video/BV1C4411s78K?from=search&seid=972462876445690392
+    // p可以是0.01 - 3 比较合适
+    let p = 1.5; 
+    let x = 0;
+    while(x<2) {
+        x = x+0.05;
+        let y = Math.pow(x,2)/ 2*p;
+        console.log(y);
+    }
+  
+ </script>
+</body>
+</html>
