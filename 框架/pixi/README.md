@@ -4,13 +4,14 @@
 |[官网文档](http://pixijs.download/release/docs/index.html) 很完整，和MDN一样，适合查询| ![](./images/Foxmail20201201105557.png) |
 |[pixi examples](https://pixijs.io/examples/)|![](./images/Foxmail20201201105812.png)|
 |[pixi官网推荐的动画插件-精灵效果](https://pixijs.io/examples/#/plugin-spine/dragon.js)||
-|[pixi中文教程](https://www.bookstack.cn/read/LearningPixi/collision)||
+|[pixi中文教程](https://www.bookstack.cn/read/LearningPixi/collision) 新手友好|![](./images/Foxmail20201201111146.png)|
 |[pixi系列教程-粒子效果](https://juejin.cn/post/6844903765108260872)|![](./images/16872fcedf4c373c.gif)|
 |[H5场景小动画实现之PixiJs实战](https://zhuanlan.zhihu.com/p/31293136)||
 |扩展插件[pixi-action](http://git.hust.cc/pixi-action/) 这些函数都比较简单，没有抛物线； 算是demo级别的。项目中用需要加强基础函数能力||
 
  
 # pixi 实例
+|实例|描述|
 |:----|:----|
 |[pixi精灵示例](https://juejin.cn/post/6844903760561438728)| ![](./images/16849ce0e011e9ef.gif) |
 |[pixi解决模糊问题](http://pixijs.download/release/docs/PIXI.AbstractRenderer.html#resize) https://www.cnblogs.com/haqiao/p/12515775.html||
