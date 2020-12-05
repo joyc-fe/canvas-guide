@@ -13,7 +13,7 @@
 # pixi 实例
 |实例|描述|
 |:----|:----|
-|[pixi精灵示例](https://juejin.cn/post/6844903760561438728)| ![](./images/16849ce0e011e9ef.gif) |
+|[pixi精灵示例](https://juejin.cn/post/6844903760561438728)| ![](./images/16849ce0e011e9ef.gif) 、![](./images/gugedonghua.gif) ![](./images/Foxmail20201205111910.png)|
 |[pixi解决模糊问题](http://pixijs.download/release/docs/PIXI.AbstractRenderer.html#resize) https://www.cnblogs.com/haqiao/p/12515775.html||
 |[pixi粒子库-dust](https://blog.csdn.net/fe_dev/article/details/86559206) |Pixi 没有内置的制作粒子效果的功能，但你可以使用一个名为 Dust 的轻量级的库来制作它们。 [效果展示](https://www.kkkk1000.com/images/learnPixiJS-ParticleEffects/ParticleContainer.html)  [发射效果](https://www.kkkk1000.com/images/learnPixiJS-ParticleEffects/emitter.html)|
 |[pixi补间动画](http://demo.htmleaf.com/1501/201501271734/index13.html)|tween.js强大的可生成平滑动画效果的js库|
