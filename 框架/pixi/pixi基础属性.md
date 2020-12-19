@@ -1,0 +1,1 @@
+- pivot By default, the pivot is the origin (0, 0).  中心点旋转

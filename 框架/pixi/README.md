@@ -20,3 +20,9 @@
 |pixi消除锯齿| [antialias参数](http://pixijs.download/release/docs/PIXI.AbstractRenderer.html#backgroundColor)  这种方法没生效 https://zhuanlan.zhihu.com/p/56029920|
 |pixi事件不生效，解决 `元素名.interactive=true` |https://blog.csdn.net/sttk111/article/details/105678751/  提前看一遍文档是能解决这个问题的|
 |pixi 触摸canvas画布 不能滑动页面问题| 这个问题折腾了很久,很多资料不完整，最后查看页面属性 touch-action, 然后在源代码库中找到解决方法 https://github.com/pixijs/pixi.js/issues/4824  |
+|pixi声音|http://pixijs.io/pixi-sound/examples/#section-playing|
+| 熊猫压缩工具 https://tinypng.com/|![](./images/Foxmail20201215051834.png)|
+|container官网示例|https://pixijs.io/examples-v4/#/demos-basic/container.js|
+|pixi资料不足，例如 不知道 text怎么用时|看源代码解决  https://github.com/pixijs/pixi.js/blob/00af8df56cfeadbc22bc5c2a1305eb8518fef993/packages/text/src/Text.ts|
+
+
