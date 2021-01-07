@@ -1,3 +1,9 @@
+# pixi 高级用法-After Effects
+|资料|说明|
+|:----|:----|
+|Bodymovin|Bodymovin 是一个 After Effects 插件，用来将动画导出成 svg/canvas/html + js ，方便在浏览器上展示。 https://codepen.io/airnan/pen/yapJWq |
+|lottie-web | https://www.yuque.com/antfe/blog/fu6hnr  https://github.com/airbnb/lottie-web|
+
 # pixi 系统学习资料
 |资料|说明|
 |:----|:----|
