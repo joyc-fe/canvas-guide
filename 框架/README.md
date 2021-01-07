@@ -9,4 +9,5 @@
 
 |技术|描述||
 |:----|:----|:----|
-||https://codepen.io/collection/nVYWZR/||
+|bodymovin|https://codepen.io/collection/nVYWZR/| https://www.zcool.com.cn/article/ZOTk2MDgw.html |
+|lottie-web|https://github.com/airbnb/lottie-web||
