@@ -8,7 +8,7 @@
 |[pixi系列教程-粒子效果](https://juejin.cn/post/6844903765108260872)|![](./images/16872fcedf4c373c.gif)|
 |[H5场景小动画实现之PixiJs实战](https://zhuanlan.zhihu.com/p/31293136)||
 |扩展插件[pixi-action](http://git.hust.cc/pixi-action/) 这些函数都比较简单，没有抛物线； 算是demo级别的。项目中用需要加强基础函数能力||
-
+|[After Effects to PIXI.js](https://codepen.io/airnan/pen/yapJWq)||
  
 # pixi 实例
 |实例|描述|
@@ -24,5 +24,6 @@
 | 熊猫压缩工具 https://tinypng.com/|![](./images/Foxmail20201215051834.png)|
 |container官网示例|https://pixijs.io/examples-v4/#/demos-basic/container.js|
 |pixi资料不足，例如 不知道 text怎么用时|看源代码解决  https://github.com/pixijs/pixi.js/blob/00af8df56cfeadbc22bc5c2a1305eb8518fef993/packages/text/src/Text.ts|
+
 
 
