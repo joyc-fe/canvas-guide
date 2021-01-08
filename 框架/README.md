@@ -11,5 +11,5 @@
 |技术|描述||
 |:----|:----|:----|
 |bodymovin|https://codepen.io/collection/nVYWZR/ <br> https://www.zcool.com.cn/article/ZOTk2MDgw.html | Bodymovin是由Hernan Torrisi创建的After Effects插件，它将After Effects文件导出为json并包含一个javascript网络播放器。我们建立在他的伟大工作之上，将其用途扩展到Android，iOS，React Native和Windows。 |
-|lottie|https://github.com/airbnb/lottie-web <br> lottie-android <br> lottie-ios <br> https://www.yuque.com/lottie/document/readme <br> 微信小程序 https://github.com/wechat-miniprogram/lottie-miniprogram  其他小程序 <br> flutter: https://skia.org/user/modules/skottie ||
+|lottie|https://github.com/airbnb/lottie-web <br> lottie-android <br> lottie-ios <br> https://www.yuque.com/lottie/document/readme <br> 微信小程序 https://github.com/wechat-miniprogram/lottie-miniprogram <br> 其他小程序 <br> flutter: https://skia.org/user/modules/skottie ||
 |Spine动画|帧动画、雪碧图、DragonBones、Spine、音频||
