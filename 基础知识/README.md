@@ -1,5 +1,12 @@
 # canvas基础知识
 
+
+调试 
+
+chrome://flags   Experimental canvas 2D API features
+
+
+
 ## 抛物线
 
 |||
