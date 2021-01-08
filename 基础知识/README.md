@@ -5,6 +5,7 @@
 
 chrome://flags   Experimental canvas 2D API features
 
+https://my.oschina.net/nosand/blog/335183
 
 
 ## 抛物线
