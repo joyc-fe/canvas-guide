@@ -1,7 +1,6 @@
 |框架_____________________|描述||
 |:----|:----|:----|
 |Web3D: <br> [Oasis 3D 引擎](https://zhuanlan.zhihu.com/p/101667941) <br> [“R3”（Render for 3D）](https://zhuanlan.zhihu.com/p/101667941)<br>  [Hilo3d](https://github.com/hiloteam/Hilo3d) <br> [seinjs](https://seinjs.com/cn/team)|[雨雀-犸良](https://www.yuque.com/emotion/help/news)  <br> [支付宝体验科技](https://www.yuque.com/antfe/blog/fu6hnr) ||
-
 |[Live2D](https://www.baidu.com/link?url=9fdcgDC3B9DfAAGtkOUuJOR_uL-goun697BkSy8UfwvNB8ihoiTi6xRydCa9ugLS&wd=&eqid=b5d59b73000004d9000000025ff686d7) <br> [dragonbones](https://dragonbones.github.io/cn/index.html) |DragonBones是白鹭时代推出的面向设计师的2D游戏动画和富媒体内容创作平台,他提供了2D骨骼动画解决方案和动态漫画解决方案。||
 |pixijs <br> [pixi官网](https://www.pixijs.com/) [pixi中文教程](https://github.com/Zainking/LearningPixi#tileset) [入门介绍](https://juejin.cn/post/6844904020939636744)|是一个轻量级的2D渲染引擎，它能自动侦测使用WebGL还是Canvas来创建图形。这个库经常被用来制作HTML5游戏以及有复杂交互的H5活动页。 复杂动画可以依赖第三方库 Tween.js，TweenMax;通过《pixi中文教程》可以了解代码结构如何设计||
 |CanvasEngine|CanvasEngine is no longer maintained, please take another framework like PixiJS or PhaserJS  ； https://canvasengine.net/|![](./images/Foxmail20201123025942.png) |
