@@ -8,7 +8,7 @@
 |canvas最佳实践项目模板|https://github.com/christopher4lis/canvas-boilerplate/tree/master/src/js||
 |EVA Store，淘宝20双十一框架|[史上最快破5亿用户的互动 - 2020双11养猫技术大揭秘](https://blog.csdn.net/weixin_43970890/article/details/110224798)||
 |[Unity](https://baike.baidu.com/item/Unity/10793)|顶级的3D引擎, 可以学习其架构和应用案例||
-|[p2物理引擎](https://github.com/schteppe/p2.js)|egret用的也是这个||
+|[p2物理引擎](https://github.com/schteppe/p2.js)|egret用的也是这个|http://www.dwenzhao.cn/profession/netbuild/egretp2.html|
 
 
 # 动画技术
