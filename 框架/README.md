@@ -1,4 +1,4 @@
-|框架_____________________|描述||
+|框架|描述||
 |:----|:----|:----|
 |Web3D: <br> [Oasis 3D 引擎](https://zhuanlan.zhihu.com/p/101667941) <br> [“R3”（Render for 3D）](https://zhuanlan.zhihu.com/p/101667941)<br>  [Hilo3d](https://github.com/hiloteam/Hilo3d) <br> [seinjs](https://seinjs.com/cn/team)|[雨雀-犸良](https://www.yuque.com/emotion/help/news)  <br> [支付宝体验科技](https://www.yuque.com/antfe/blog/fu6hnr) ||
 |[Live2D](https://www.baidu.com/link?url=9fdcgDC3B9DfAAGtkOUuJOR_uL-goun697BkSy8UfwvNB8ihoiTi6xRydCa9ugLS&wd=&eqid=b5d59b73000004d9000000025ff686d7) <br> [dragonbones](https://dragonbones.github.io/cn/index.html) |DragonBones是白鹭时代推出的面向设计师的2D游戏动画和富媒体内容创作平台,他提供了2D骨骼动画解决方案和动态漫画解决方案。||
@@ -7,7 +7,7 @@
 |canvas最佳实践项目模板|https://github.com/christopher4lis/canvas-boilerplate/tree/master/src/js||
 |EVA Store，淘宝20双十一框架|[史上最快破5亿用户的互动 - 2020双11养猫技术大揭秘](https://blog.csdn.net/weixin_43970890/article/details/110224798)||
 |[Unity](https://baike.baidu.com/item/Unity/10793)|顶级的3D引擎, 可以学习其架构和应用案例||
-
+|[p2物理引擎](https://github.com/schteppe/p2.js)|egret用的也是这个||
 |技术|描述||
 |:----|:----|:----|
 |bodymovin|https://codepen.io/collection/nVYWZR/ <br> https://www.zcool.com.cn/article/ZOTk2MDgw.html | Bodymovin是由Hernan Torrisi创建的After Effects插件，它将After Effects文件导出为json并包含一个javascript网络播放器。我们建立在他的伟大工作之上，将其用途扩展到Android，iOS，React Native和Windows。 |
