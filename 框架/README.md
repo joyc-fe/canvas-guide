@@ -15,6 +15,8 @@
 |<span style="white-space:nowrap;">技术&emsp;&emsp;&emsp;&emsp;&emsp;</span>|描述||
 |:----|:----|:----|
 |bodymovin|https://codepen.io/collection/nVYWZR/ <br> https://www.zcool.com.cn/article/ZOTk2MDgw.html | Bodymovin是由Hernan Torrisi创建的After Effects插件，它将After Effects文件导出为json并包含一个javascript网络播放器。我们建立在他的伟大工作之上，将其用途扩展到Android，iOS，React Native和Windows。 |
+|bodymovin实践|https://www.cnblogs.com/zamhown/p/6688369.htm | [bodymovin官网https://github.com/bodymovin/bodymovin已经迁移到lottie](https://github.com/bodymovin/bodymovin)|
+|把复杂的处理过程交给工具||记得在FDCon2017大会上，渚薰演讲完毕后，有个人提出了我一直想问的问题：Adobe已经推出HTML5动画设计软件An（Adobe Animate CC），为什么不用它而要用这种方式？渚薰答道，An的前身就是Flash，它生成出来的H5动画是用js写的（使用CreateJS库），后期修改和维护会更复杂。确实如此，用过Bodymovin之后，不难看出它的灵活性的确很高，而且json形式的动画也远比js写出来的动画更适合跨平台。|
 |lottie|1. https://github.com/airbnb/lottie-web <br> 2.lottie-android <br> 3.lottie-ios <br> 4.雨雀洛丽塔社区 https://www.yuque.com/lottie/document/readme <br> 5.微信小程序 https://github.com/wechat-miniprogram/lottie-miniprogram <br> 6.其他小程序 <br> flutter: https://skia.org/user/modules/skottie |Lottie是一个用于Android，iOS，Web和Windows的库，用于解析使用Bodymovin导出为json的Adobe After Effects动画，并在移动设备和网络上呈现它们！ [支持导出的 AE 属性](https://www.yuque.com/lottie/document/supported-features) <br> lottie-web的中文文档并不多，入门学习可以参考蚂蚁金服团队的这个文档https://www.yuque.com/lottie/document/supported-features  <br> lottie-web主要实现AE设计产出在页面上的展示，作为2D动画开发框架缺少太多API和框架结构，可以作为2D框架的扩展|
 |[webgl滤镜](https://juejin.cn/post/6885673542642302984)|具有透明通道的视频动画播放 [效果](http://y.qq.com/m/act/demo_anew/index.html) [实现代码库](https://github.com/ZhuangWeiMian/javascript_note/tree/master/webgl%E5%AD%A6%E4%B9%A0/%E9%80%8F%E6%98%8E%E8%A7%86%E9%A2%91)||
 |Spine动画|帧动画、雪碧图、DragonBones、Spine、音频||
