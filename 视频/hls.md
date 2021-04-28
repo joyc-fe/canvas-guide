@@ -37,6 +37,7 @@ ffmpeg -i 263043421-1-208.mp4 -f segment -segment_time 60 -segment_format mpegts
 ./ffmpeg -i ./out.ts -c copy -map 0 -f segment -segment_list ./vedio/b.m3u8 -segment_time 5 ./vedio/test-%03d.ts
 ```
 
+http://www.ffmpeg.org/  官网
 
 使用 ffmpeg 通过以上方法 直接转出来的比较简单，不能在vediojs中播放
 
