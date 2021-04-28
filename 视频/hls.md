@@ -23,6 +23,11 @@ Mac下如何切片HLS流 https://blog.51cto.com/ljianbing/1899733
 
 https://developer.apple.com/streaming/
 
+## 标准切片
+
+mediafilesegmenter -B ItanoPart -i SamplePartList.m3u8 -t 10  -f ./movie ./touming.mp4
+
+
 转换过程
 ```
 ffmpeg -i 263043421-1-208.mp4 -f segment -segment_time 60 -segment_format mpegts -segment_list ./video-folder/video_name.m3u8 -c copy -bsf:v h264_mp4toannexb -map 0 ./higherlevel/video-folder/course-%04d.ts
