@@ -1,4 +1,11 @@
+## hls：http live streaming
 
+
+https://developer.apple.com/documentation/http_live_streaming/about_apple_s_http_live_streaming_tools
+
+```
+mediafilesegmenter -B part -i d521-7sec.m3u8 -t 5 -f ./movie7sec ./720p.mp4
+```
 
 ## m3u8跨域问题
 
