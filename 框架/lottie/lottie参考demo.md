@@ -1,0 +1,12 @@
+# 参考demo
+https://chenqingspring.github.io/vue-lottie/
+
+## 犸良设计平台
+
+https://design.alipay.com/emotion
+
+![image](https://user-images.githubusercontent.com/19755534/130754503-b5a2f03a-c9ab-4e4a-bb4f-fb069b9bd77e.png)
+
+![image](https://user-images.githubusercontent.com/19755534/130754527-564d030f-327b-4b05-bf82-8170011fa7a2.png)
+
+![image](https://user-images.githubusercontent.com/19755534/130754794-12c43a65-d2e1-403a-849b-721bda3696c0.png)
