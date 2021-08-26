@@ -4,6 +4,9 @@
 
 https://www.zcool.com.cn/article/ZOTk2MDgw.html
 
+![image](https://user-images.githubusercontent.com/19755534/130927969-4f099721-7f65-4bc3-a26e-81daad79b78f.png)
+
+
 ## 属性支持一览表
 http://airbnb.io/lottie/#/supported-features
 
