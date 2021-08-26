@@ -4,6 +4,9 @@
 
 https://www.zcool.com.cn/article/ZOTk2MDgw.html
 
+## 属性支持一览表
+http://airbnb.io/lottie/#/supported-features
+
 ## 图片特效是否支持
 
 1. sketch导出svg格式后转成.ai文件
